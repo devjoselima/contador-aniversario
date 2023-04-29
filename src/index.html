@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Biblioteca para animação do scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/main.scss">
+    <title>Contador aniversario</title>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img src="images/gif_aniversario.gif" alt="feliz aniversario gif" class="hero__logo">
+            <p class="hero__text">
+                O dia mais esperado do ano vai começar em: <span id="contador">15d 50m 20h 26s</span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Central park - Estados Unidos                          
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        GRATUITO
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        06/02/2024 às 13hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">Garanta seu convite</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--aniversario">
+        <div class="container" data-aos="flip-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Aniversario</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magnam cumque, voluptatum voluptatem minima rerum deserunt adipisci, provident dolore excepturi ipsam deleniti fugit iusto atque vero veritatis corporis non quisquam!
+                </p>
+            </div>
+            <img class="event__image" src="images/perfil.jpg" alt="foto do aniversariante">
+        </div>
+    </section>
+
+    <section class="event event--lugar event--image-left">
+        <div class="container" data-aos="flip-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Onde será ?</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magnam cumque, voluptatum voluptatem minima rerum deserunt adipisci, provident dolore excepturi ipsam deleniti fugit iusto atque vero veritatis corporis non quisquam!
+                </p>
+            </div>
+            <img class="event__image" src="images/central_park.jpg" alt="foto do aniversariante">
+        </div>
+    </section>
+
+    <section class="event event--presente">
+        <div class="container" data-aos="flip-left">
+            <div class="event__details">
+                <h2 class="event__details__title">O que levar ?</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magnam cumque, voluptatum voluptatem minima rerum deserunt adipisci, provident dolore excepturi ipsam deleniti fugit iusto atque vero veritatis corporis non quisquam!
+                </p>
+            </div>
+            <img class="event__image" src="images/presente.jpg" alt="foto do aniversariante">
+        </div>
+    </section>
+
+    <section class="event event--duracao event--image-left">
+        <div class="container" data-aos="flip-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Duração</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magnam cumque, voluptatum voluptatem minima rerum deserunt adipisci, provident dolore excepturi ipsam deleniti fugit iusto atque vero veritatis corporis non quisquam!
+                </p>
+            </div>
+            <img class="event__image" src="images/duracao.jpg" alt="foto do aniversariante">
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
